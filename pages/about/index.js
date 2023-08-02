@@ -1,14 +1,5 @@
 import { FaHtml5, FaCss3, FaJs, FaReact, FaWordpress, FaFigma } from 'react-icons/fa';
-import {
-    SiNextdotjs,
-    SiFramer,
-    SiAdobexd,
-    SiAdobephotoshop,
-    SiTailwindcss,
-    SiRedux,
-    SiMui,
-    SiBootstrap,
-} from 'react-icons/si';
+import { SiNextdotjs, SiAdobephotoshop, SiTailwindcss, SiRedux, SiMui, SiBootstrap } from 'react-icons/si';
 import React, { useState } from 'react';
 import { fadeIn } from '../../variants';
 //  data
@@ -30,19 +21,19 @@ const aboutData = [
             },
         ],
     },
-    {
-        title: 'awards',
-        info: [
-            // {
-            //     title: 'Webby Awards - Honoree',
-            //     stage: '2011 - 2012',
-            // },
-            // {
-            //     title: 'Adobe Design Achievement Awards - Finalist',
-            //     stage: '2009 - 2010',
-            // },
-        ],
-    },
+    // {
+    //     title: 'awards',
+    //     info: [
+    //         // {
+    //         //     title: 'Webby Awards - Honoree',
+    //         //     stage: '2011 - 2012',
+    //         // },
+    //         // {
+    //         //     title: 'Adobe Design Achievement Awards - Finalist',
+    //         //     stage: '2009 - 2010',
+    //         // },
+    //     ],
+    // },
     {
         title: 'experience',
         info: [
