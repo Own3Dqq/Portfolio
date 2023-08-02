@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaJs, FaReact, FaWordpress, FaFigma } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from 'react-icons/fa';
 import { SiNextdotjs, SiAdobephotoshop, SiTailwindcss, SiRedux, SiMui, SiBootstrap } from 'react-icons/si';
 import React, { useState } from 'react';
 import { fadeIn } from '../../variants';
@@ -9,15 +9,15 @@ const aboutData = [
         info: [
             {
                 title: 'Web Development',
-                icons: [<FaHtml5 />, <FaCss3 />, <FaJs />, <FaReact />, , <SiRedux />, <SiNextdotjs />],
+                icons: ['<FaHtml5 />', '<FaCss3 />', '<FaJs />', '<FaReact />', '<SiRedux />', '<SiNextdotjs />'],
             },
             {
                 title: 'UI/UX Design',
-                icons: [<FaFigma />, <SiAdobephotoshop />],
+                icons: ['<FaFigma />', '<SiAdobephotoshop />'],
             },
             {
                 title: 'Other Tools',
-                icons: [<SiTailwindcss />, <SiMui />, <SiBootstrap />],
+                icons: ['<SiTailwindcss />', '<SiMui />', '<SiBootstrap />'],
             },
         ],
     },
@@ -38,17 +38,9 @@ const aboutData = [
         title: 'experience',
         info: [
             {
-                title: 'Front-End Developer - UpWork',
+                title: 'Front-End Developer - Freelance',
                 stage: '2023',
             },
-            // {
-            //     title: 'Web Developer - ABC Agency',
-            //     stage: '2010 - 2012',
-            // },
-            // {
-            //     title: 'Intern - DEF Corporation',
-            //     stage: '2008 - 2010',
-            // },
         ],
     },
     {
@@ -100,7 +92,7 @@ const About = () => {
                         exit='hidden'
                         className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
                     >
-                        1 years ago, I began freelancing as a developer. Since then, I've done remove work for agencies,
+                        1 years ago, I began freelancing as a developer. Since then, I`ve done remove work for agencies,
                         consulted for startups, and collaborated on digital products for business and consumer use.
                     </motion.p>
                 </div>
@@ -146,7 +138,7 @@ const About = () => {
                                     <div>{item.stage}</div>
                                     <div className='flex gap-x-4'>
                                         {/* icons */}
-                                        {item.icons?.map((icon, index) => {
+                                        {item.icons.map((icon, index) => {
                                             return (
                                                 <div key={index} className='text-2xl flex text-white'>
                                                     {icon}
