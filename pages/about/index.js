@@ -9,15 +9,15 @@ const aboutData = [
         info: [
             {
                 title: 'Web Development',
-                icons: ['<FaHtml5 />', '<FaCss3 />', '<FaJs />', '<FaReact />', '<SiRedux />', '<SiNextdotjs />'],
+                icons: [<FaHtml5 />, <FaCss3 />, <FaJs />, <FaReact />, <SiRedux />, <SiNextdotjs />],
             },
             {
                 title: 'UI/UX Design',
-                icons: ['<FaFigma />', '<SiAdobephotoshop />'],
+                icons: [<FaFigma />, <SiAdobephotoshop />],
             },
             {
                 title: 'Other Tools',
-                icons: ['<SiTailwindcss />', '<SiMui />', '<SiBootstrap />'],
+                icons: [<SiTailwindcss />, <SiMui />, <SiBootstrap />],
             },
         ],
     },
