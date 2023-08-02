@@ -142,15 +142,16 @@ const About = () => {
                                     <div className='font-light mb-2 md:md-0'>{item.title}</div>
                                     <div className='hidden md:flex'>-</div>
                                     <div>{item.stage}</div>
-                                    <div className='flex gap-x-4'></div>
-                                    {/* icons */}
-                                    {item.icons?.map((icon, iconIndex) => {
-                                        return (
-                                            <div key={iconIndex} className='text-2xl text-white'>
-                                                {icon}
-                                            </div>
-                                        );
-                                    })}
+                                    <div className='flex gap-x-4'>
+                                        {/* icons */}
+                                        {item.icons?.map((icon, iconIndex) => {
+                                            return (
+                                                <div key={iconIndex} className='text-2xl text-white'>
+                                                    {icon}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
                                 </div>
                             );
                         })}
