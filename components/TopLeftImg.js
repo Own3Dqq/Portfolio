@@ -13,7 +13,7 @@ const TopLeftImg = () => {
               opacity-50
           '
         >
-            <Image src='/top-left-img.png' width={400} height={400} alt='' />
+            <Image src='/top-left-img.png' select-none width={400} height={400} alt='' />
         </div>
     );
 };

@@ -5,27 +5,27 @@ const serviceData = [
     {
         icon: <RxCrop />,
         title: 'Branding',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        description: 'Creating your unique brand.',
     },
     {
         icon: <RxPencil2 />,
         title: 'Design',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        description: 'Developing simple and beautiful design.',
     },
     {
         icon: <RxDesktop />,
         title: 'Development',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        description: 'Website development and maintenance.',
     },
     {
         icon: <RxReader />,
         title: 'Copywriting',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        description: 'Crafting unique content.',
     },
     {
         icon: <RxRocket />,
         title: 'SEO',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        description: 'SEO optimization and website promotion.',
     },
 ];
 

@@ -28,9 +28,8 @@ const Home = () => {
                         exit='hidden'
                         className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
                     >
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos repellat quas qui hic temporibus
-                        voluptates nemo magni, facere vitae laborum ducimus deserunt et? Omnis veniam eligendi ipsa odio
-                        nemo eius.
+                        Exploring the fusion of creativity and technology, I specialize in translating visionary ideas
+                        into seamless and interactive web interfaces.
                     </motion.p>
                     {/* btn */}
                     <div className='flex justify-center xl:hidden relative'>
@@ -60,9 +59,7 @@ const Home = () => {
                     exit='hidden'
                     transition={{ duration: 1, ease: 'easeInOut' }}
                     className='w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg: right-[8%]'
-                >
-                    {/* <Avatar /> */}
-                </motion.div>
+                ></motion.div>
             </div>
         </div>
     );

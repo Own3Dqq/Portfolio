@@ -34,34 +34,17 @@ const About = () => {
                 },
             ],
         },
-        // {
-        //     title: 'awards',
-        //     info: [
-        //         {
-        //             title: 'Webby Awards - Honoree',
-        //             stage: '2011 - 2012',
-        //         },
-        //         {
-        //             title: 'Adobe Design Achievement Awards - Finalist',
-        //             stage: '2009 - 2010',
-        //         },
-        //     ],
-        // },
         {
             title: 'experience',
             info: [
                 {
-                    title: 'Freelancer - UpWork',
-                    stage: '2023',
+                    title: 'Freelancer - Upwork',
+                    stage: '2022',
                 },
-                // {
-                //     title: 'Web Developer - ABC Agency',
-                //     stage: '2010 - 2012',
-                // },
-                // {
-                //     title: 'Intern - DEF Corporation',
-                //     stage: '2008 - 2010',
-                // },
+                {
+                    title: 'Freelancer - Freelancehunt',
+                    stage: '2022',
+                },
             ],
         },
         {
@@ -72,13 +55,9 @@ const About = () => {
                     stage: '2019',
                 },
                 {
-                    title: 'Computer Science Diploma - UA Technical University',
+                    title: 'Computer Engineering Diploma - UA, Technical University',
                     stage: '2019',
                 },
-                // {
-                //     title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-                //     stage: '2006',
-                // },
             ],
         },
     ];
@@ -95,7 +74,7 @@ const About = () => {
                         exit='hidden'
                         className='h2'
                     >
-                        Captivating <span className='text-accent'>stories</span> birth magificent designs.
+                        Captivating <span className='text-accent'>stories</span> birth magnificent designs.
                     </motion.h2>
                     <motion.p className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
                         1 years ago, I began freelancing as a developer. Since then, I`ve done remove work for agencies,
