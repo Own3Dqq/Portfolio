@@ -76,7 +76,7 @@ const About = () => {
                     >
                         Captivating <span className='text-accent'>stories</span> birth magnificent designs.
                     </motion.h2>
-                    <motion.p className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
+                    <motion.p className='hidden md:block max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
                         1 years ago, I began freelancing as a developer. Since then, I`ve done remove work for agencies,
                         consulted for startups, and collaborated on digital products for business and consumer use.
                     </motion.p>
